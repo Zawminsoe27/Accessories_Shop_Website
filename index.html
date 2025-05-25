@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/31bacc79d9.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid row">
+        <a class="navbar-brand col-3" href="#">FLD</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse col-6" id="navbarSupportedContent">
+          <ul
+            class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-between"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+          <div class="d-flex list-unstyled col-3 justify-content-between">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link position-relative" href="#"
+                ><i class="fas fa-bell"></i>
+                <span
+                  class="position-absolute badge bg-danger top-0 start-100 translate-middle rounded-pill text-end"
+                  >5</span
+                ></a
+              >
+            </li>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="hero row" id="home">
+        <div class="hero-text col-3 d-flex flex-column justify-content-center">
+          <span class="my-4">Beats</span>
+          <h3>Natural Bass Audio</h3>
+          <button class="btn btn-danger w-100">Shop Now</button>
+        </div>
+        <div class="col-5">
+          <img src="./photos/headphone.png " alt="" class="img w-65 mb-4" />
+        </div>
+        <div class="col-3">
+          <h6>Description</h6>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+            illum accusantium, quidem est ea tempore. Doloribus ea illo corporis
+            tempore veniam, nobis soluta cum. Mollitia.
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

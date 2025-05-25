@@ -1,0 +1,12 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.hero{
+	background:linear-gradient(to right,#ff3908da, #ffffff);
+	max-width: 98vw;
+	height: 90vh;
+	max-height: 91;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
