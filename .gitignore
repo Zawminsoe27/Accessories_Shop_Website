@@ -1,0 +1,9 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore specific files
+[styles.css](http://_vscodecontentref_/0)
+[headphone.png](http://_vscodecontentref_/1)
+
+# Ignore all .log files
+*.log
